@@ -26,10 +26,9 @@ SOFTWARE.
 
 local insert = table.insert
 
-local Const = require("const")
-local Common = require(Const.SLAB_PATH .. '.Internal.Input.Common')
-local Stats = require(Const.SLAB_PATH .. '.Internal.Core.Stats')
-local Utility = require(Const.SLAB_PATH .. '.Internal.Core.Utility')
+local Common = require(SLAB_PATH .. '.Internal.Input.Common')
+local Stats = require(SLAB_PATH .. '.Internal.Core.Stats')
+local Utility = require(SLAB_PATH .. '.Internal.Core.Utility')
 
 local Keyboard = {}
 

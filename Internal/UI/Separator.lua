@@ -26,12 +26,11 @@ SOFTWARE.
 
 local max = math.max
 
-local Const = require("const")
-local Cursor = require(Const.SLAB_PATH .. '.Internal.Core.Cursor')
-local DrawCommands = require(Const.SLAB_PATH .. '.Internal.Core.DrawCommands')
-local LayoutManager = require(Const.SLAB_PATH .. '.Internal.UI.LayoutManager')
-local Style = require(Const.SLAB_PATH .. '.Style')
-local Window = require(Const.SLAB_PATH .. '.Internal.UI.Window')
+local Cursor = require(SLAB_PATH .. '.Internal.Core.Cursor')
+local DrawCommands = require(SLAB_PATH .. '.Internal.Core.DrawCommands')
+local LayoutManager = require(SLAB_PATH .. '.Internal.UI.LayoutManager')
+local Style = require(SLAB_PATH .. '.Style')
+local Window = require(SLAB_PATH .. '.Internal.UI.Window')
 
 local Separator = {}
 

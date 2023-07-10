@@ -24,8 +24,7 @@ SOFTWARE.
 
 --]]
 
-local Const = require("const")
-local FileSystem = require(Const.SLAB_PATH .. '.Internal.Core.FileSystem')
+local FileSystem = require(SLAB_PATH .. '.Internal.Core.FileSystem')
 
 local Config = {}
 local DecodeValueFn = nil

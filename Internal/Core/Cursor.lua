@@ -24,8 +24,7 @@ SOFTWARE.
 
 --]]
 
-local Const = require("const")
-local Utility = require(Const.SLAB_PATH .. '.Internal.Core.Utility')
+local Utility = require(SLAB_PATH .. '.Internal.Core.Utility')
 
 local Cursor = {}
 
